@@ -1,0 +1,12 @@
+[Unit]
+Description=Waynotes Daemon
+After=default.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/waynotes
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=default.target
