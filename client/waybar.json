@@ -1,0 +1,9 @@
+{
+  "custom/waynotes": {
+    "exec": "/home/ankit/Experiments/waynotes/client/.venv/bin/python /home/ankit/Experiments/waynotes/client/main.py",
+    "return-type": "json",
+    "interval": 5,
+    "on-click": "/home/ankit/Experiments/waynotes/client/.venv/bin/python /home/ankit/Experiments/waynotes/client/main.py toggle",
+    "tooltip": true
+  }
+}

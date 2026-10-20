@@ -1,0 +1,22 @@
+/* Paste into waybar style.css (matches your theme tokens). */
+
+#custom-waynotes {
+  color: @fg;
+  padding: 0 8px;
+}
+
+#custom-waynotes.pending {
+  color: @fg;
+}
+
+#custom-waynotes.done {
+  color: @pine;
+}
+
+#custom-waynotes.empty {
+  color: @subtle;
+}
+
+#custom-waynotes.unavailable {
+  color: @warning;
+}
